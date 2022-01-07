@@ -1,7 +1,11 @@
-# iOs 15 - Tela bloqueada com notificações
+# iOs 15 - notifications screen
 
 - Tailwind CSS 3
 - Html 5
-- Mobile version
 
 ![Alt text](./public/images/ios15.png?raw=true "Image 1")
+
+## How to install
+
+1. npm install
+2. npm run dev
