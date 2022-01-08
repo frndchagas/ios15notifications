@@ -10,7 +10,7 @@
 		<title>iOs 15</title>
 	</head>
 	<body>
-		<div class="px-10 min-h-screen bg-purple-50 flex justify-end items-center">
+		<div class="flex items-center justify-end min-h-screen px-10 bg-purple-50">
 			<!-- Screen -->
 			<div
 				class="relative h-[712px] w-[350px] bg-black rounded-[60px] shadow-xl overflow-hidden border-[14px] border-black"
@@ -19,12 +19,12 @@
 				<img
 					src="images/wallpaper.png"
 					alt="Wallpaper"
-					class="absolute inset-0 w-full h-full object-cover"
+					class="absolute inset-0 object-cover w-full h-full"
 				/>
 
 				<!-- Camera and Speaker-->
-				<div class="absolute top-0 inset-x-0">
-					<div class="h-6 w-40 bg-black mx-auto rounded-b-3xl"></div>
+				<div class="absolute inset-x-0 top-0">
+					<div class="w-40 h-6 mx-auto bg-black rounded-b-3xl"></div>
 				</div>
 
 				<!-- Content -->
@@ -35,7 +35,7 @@
 						<div class="text-white flex gap-[2px]">
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
-								class="h-4 w-4"
+								class="w-4 h-4"
 								viewBox="0 0 20 20"
 								fill="currentColor"
 							>
@@ -47,7 +47,7 @@
 							</svg>
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
-								class="h-4 w-4"
+								class="w-4 h-4"
 								viewBox="0 0 20 20"
 								fill="currentColor"
 							>
@@ -57,7 +57,7 @@
 							</svg>
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
-								class="h-4 w-4"
+								class="w-4 h-4"
 								viewBox="0 0 20 20"
 								fill="currentColor"
 							>
@@ -73,7 +73,7 @@
 					<div class="h-0.5 w-10 bg-white/30 mr-7 ml-auto rounded"></div>
 
 					<!-- Cadeado, Horário e Data-->
-					<div class="flex flex-col items-center gap-y-2 text-white">
+					<div class="flex flex-col items-center text-white gap-y-2">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							class="h-9 w-9"
@@ -91,7 +91,7 @@
 					</div>
 
 					<!-- Spotify Notification-->
-					<div class="bg-white/50 mx-2 rounded-2xl mt-4 backdrop-blur-sm py-3">
+					<div class="py-3 mx-2 mt-4 bg-white/50 rounded-2xl backdrop-blur-sm">
 						<!-- Cover -->
             <div class="flex pl-3 ">
 							<div class="relative h-[73px] w-[73px]">
@@ -107,7 +107,7 @@
 								></img>
 								
 							</div>
-							<div class="flex flex-col ml-3 justify-center">
+							<div class="flex flex-col justify-center ml-3">
 								<span class="text-[10px] font-bold text-gray-600">iPhone</span>
 								<span class="text-[13px] font-bold -mt-1">Don't Wait</span>
 								<span class="text-[13px] font-medium -mt-1"
@@ -116,7 +116,7 @@
 							</div>
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
-								class="h-5 w-5 place-self-center mr-4 ml-auto text-gray-900"
+								class="w-5 h-5 ml-auto mr-4 text-gray-900 place-self-center"
 								fill="none"
 								viewBox="0 0 24 24"
 								stroke="currentColor"
@@ -131,7 +131,7 @@
 						</div>
 
             <!-- Progress Bar -->
-            <div class="relative mt-4 mx-3">
+            <div class="relative mx-3 mt-4">
               <div class="h-[6px] w-[6px] rounded-full bg-black absolute top-[-1px]"></div>
               <hr class="border-2 border-gray-600 rounded-md">
               <div class="flex justify-between">
@@ -155,55 +155,55 @@
               </div>
             </div>    
             <!-- Volume -->
-            <div class="flex mt-8 items-center mx-6">
+            <div class="flex items-center mx-6 mt-8">
               <div class="mt-[-14px]">
-                <i class="fas fa-volume-down text-gray-600"></i>
+                <i class="text-gray-600 fas fa-volume-down"></i>
               </div>
-              <div class="ml-3 relative pb-4 w-full justify-self-center">
+              <div class="relative w-full pb-4 ml-3 justify-self-center">
                 <div class="h-5 w-5 rounded-full bg-white border border-gray-400 absolute top-[-8px] ml-20 shadow-2xl shadow-black"></div>
                 <hr class="border-[1.5px] border-black rounded-md bg-black absolute w-20">
                 <hr class="border-[1.5px] border-gray-600 rounded-md bg-gray-600">
               </div>
               <div class="mt-[-14px] ml-3">
-                <i class="fas fa-volume-up text-gray-600"></i>              
+                <i class="text-gray-600 fas fa-volume-up"></i>              
               </div>
             </div>
 					</div>
 
           <!-- Outras notificações [iFood] -->
-					<div class="relative mt-4 mx-2 ">
+					<div class="relative mx-2 mt-4 ">
 						<div class="absolute -bottom-4 h-full bg-white/10 inset-x-0 rounded-2xl backdrop-blur-sm scale-[0.85] origin-bottom"></div>
-						<div class="absolute -bottom-2 h-full bg-white/30 inset-x-0 rounded-2xl backdrop-blur-sm scale-95 origin-bottom"></div>
-						<div class="bg-white/50 rounded-2xl backdrop-blur-sm py-3 px-3 shadow-sm">
-							<div class="flex gap-1 justify-between">
-								<img src="images/ifood.png" alt="ifood" class="h-8 w-8 rounded-md">
+						<div class="absolute inset-x-0 h-full origin-bottom scale-95 -bottom-2 bg-white/30 rounded-2xl backdrop-blur-sm"></div>
+						<div class="px-3 py-3 shadow-sm bg-white/50 rounded-2xl backdrop-blur-sm">
+							<div class="flex justify-between gap-1">
+								<img src="images/ifood.png" alt="ifood" class="w-8 h-8 rounded-md">
 								<div class="flex flex-col mt-[-5px] -ml-[15px]">
 									<span class="text-sm font-bold tracking-tight">1ª sexta de 2022</span>
 									<span class="text-sm font-medium tracking-tight mt-[-2px]">Clica no cupom pra registrar!</span>
 								</div>
-								<span class="text-xs text-gray-700 justify-self-end font-medium">Há 28m</span>
+								<span class="text-xs font-medium text-gray-700 justify-self-end">Há 28m</span>
 							</div>
 						</div>
 					</div>
 				</div>
 
 				<!-- Lanterna e Câmera-->
-				<div class="absolute bottom-0 inset-x-0 h-16 -mx-6">
+				<div class="absolute inset-x-0 bottom-0 h-16 -mx-6">
 					<div class="flex justify-around">
-						<button class="bg-gray-800/50 rounded-full p-2">
-							<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" viewBox="0 0 20 20" fill="currentColor">
+						<button class="p-2 rounded-full bg-gray-800/50">
+							<svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white" viewBox="0 0 20 20" fill="currentColor">
 								<path d="M11 3a1 1 0 10-2 0v1a1 1 0 102 0V3zM15.657 5.757a1 1 0 00-1.414-1.414l-.707.707a1 1 0 001.414 1.414l.707-.707zM18 10a1 1 0 01-1 1h-1a1 1 0 110-2h1a1 1 0 011 1zM5.05 6.464A1 1 0 106.464 5.05l-.707-.707a1 1 0 00-1.414 1.414l.707.707zM5 10a1 1 0 01-1 1H3a1 1 0 110-2h1a1 1 0 011 1zM8 16v-1h4v1a2 2 0 11-4 0zM12 14c.015-.34.208-.646.477-.859a4 4 0 10-4.954 0c.27.213.462.519.476.859h4.002z" />
 							</svg>
 						</button>
-						<button class="bg-gray-800/50 rounded-full p-2">
-							<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" viewBox="0 0 20 20" fill="currentColor">
+						<button class="p-2 rounded-full bg-gray-800/50">
+							<svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white" viewBox="0 0 20 20" fill="currentColor">
 								<path fill-rule="evenodd" d="M4 5a2 2 0 00-2 2v8a2 2 0 002 2h12a2 2 0 002-2V7a2 2 0 00-2-2h-1.586a1 1 0 01-.707-.293l-1.121-1.121A2 2 0 0011.172 3H8.828a2 2 0 00-1.414.586L6.293 4.707A1 1 0 015.586 5H4zm6 9a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd" />
 							</svg>
 						</button>
 					</div>
 				</div>
 
-				<div class="absolute bottom-1 inset-x-0 h-1 bg-white/80 mx-28 rounded-md"></div>
+				<div class="absolute inset-x-0 h-1 rounded-md bottom-1 bg-white/80 mx-28"></div>
 
 			</div>
 		</div>
